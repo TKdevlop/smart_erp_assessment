@@ -23,7 +23,11 @@ expected Response
 </pre>
 GET http://localhost:3000/[hash]  
 (redirects to orignal URL)
-
+```bash
+# setup backend API for test
+npm run test
+# all test file in our case test for url shortening service src -> app.controller.spec.ts
+```
 ```bash
 # setup backend API for production
 cd [project]
